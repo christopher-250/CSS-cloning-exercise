@@ -29,9 +29,11 @@ body, html {
 }
 
 .overlay h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 30px;
-  font-weight: 600;
+  font-weight: 500px;
+  text-align: left;
+  margin-left: 80px;
 }
 
 .search-bar {
@@ -44,7 +46,6 @@ body, html {
   max-width: 1000px;
   margin: 0 auto;
   align-items: center;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
 .search-field {
@@ -57,18 +58,15 @@ body, html {
 }
 
 .search-field input {
-  border: none;
   outline: none;
   background: transparent;
   font-size: 1rem;
-  padding-left: 10px;
+  padding-left: 30px;
   width: 100%;
+  border: 5px solid white;
+  margin: 20px;
+  
 }
-
-.icon {
-  font-size: 1.2rem;
-}
-
 .seek-btn {
   background-color: #007bff;
   color: white;
@@ -127,4 +125,87 @@ body, html {
   gap: 6px;
   font-weight: bold;
 }
+.heading {
+   text-align: center;
+   margin-bottom: 40px;
+}
+.heading h1 {
+  font-size: 32px;
+  color: #333;
+   margin-bottom: 10px;
+ }
+
+.accommodation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  justify-content: center;
+ }
+
+.accommodation-item {
+ padding: 25px;
+ text-align: center;
+ border: 1px solid #e0e0e0;
+ border-radius: 12px;
+ transition: all 0.3s ease;
+ cursor: pointer;
+  background-color: white;
+ }
+
+.accommodation-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-color: #007bff;
+ }
+ .accommodation-image {
+  width: 150px;
+  height:150px;
+  object-fit: contain;
+}
+
+.accommodation-item p {
+ font-size: 18px;
+ color: #444;
+ text-transform: capitalize;
+ margin: 0;
+ }
+.heading2 h1{
+   font-size: 24px;
+  margin-bottom: 10px;
+}
+.accommodation-item1 {
+ padding: 25px;
+ text-align: center;
+ border: 1px solid #e0e0e0;
+ border-radius: 12px;
+ transition: all 0.3s ease;
+ cursor: pointer;
+  background-color: white;
+ }
+ .accommodation-item1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-color: #007bff;
+ }
+  .accommodation-image1 {
+  width: 150px;
+  height:150px;
+  object-fit: contain;
+  margin-left: 30px;
+}
+.accommodation-grid2 {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  justify-content: center;
+ }
+
+         
+
+
+
+
+
+
+
 
