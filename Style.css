@@ -34,7 +34,6 @@ body, html {
   font-weight: 500px;
   text-align: left;
   margin-left: 80px;
-  color: #ddd;
 }
 
 .search-bar {
@@ -130,67 +129,75 @@ body, html {
    text-align: center;
    margin-bottom: 40px;
 }
-.container {
-    width: 90%;
-    max-width: 1200px;
-    text-align: left;
-}
+.heading h1 {
+  font-size: 32px;
+  color: #333;
+   margin-bottom: 10px;
+ }
 
-h1 {
-    font-size: 24px;
-    color: #0c0c0c; 
-    margin-bottom: 30px;
-    font-weight: normal; 
-}
-
-.accommodations-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px; 
-}
+.accommodation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  justify-content: center;
+ }
 
 .accommodation-item {
-    background-color: #fff; 
-    border-radius: 15px;
-    overflow: hidden;
-    position: relative;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    margin-left: 30px;
-}
+ padding: 25px;
+ text-align: center;
+ border: 1px solid #e0e0e0;
+ border-radius: 12px;
+ transition: all 0.3s ease;
+ cursor: pointer;
+  background-color: white;
+ }
 
 .accommodation-item:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-color: #007bff;
+ }
+ .accommodation-image {
+  width: 150px;
+  height:150px;
+  object-fit: contain;
 }
 
-.accommodation-item img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    display: flex;
+.accommodation-item p {
+ font-size: 18px;
+ color: #444;
+ text-transform: capitalize;
+ margin: 0;
+ }
+.heading2 h1{
+   font-size: 24px;
+  margin-bottom: 10px;
 }
-
-.caption {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    color: white;
-    padding: 8px 12px;
-    border-radius: 8px; 
-    font-size: 14px;
-    font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.6);
+.accommodation-item1 {
+ padding: 25px;
+ text-align: center;
+ border: 1px solid #e0e0e0;
+ border-radius: 12px;
+ transition: all 0.3s ease;
+ cursor: pointer;
+  background-color: white;
+ }
+ .accommodation-item1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-color: #007bff;
+ }
+  .accommodation-image1 {
+  width: 150px;
+  height:150px;
+  object-fit: contain;
+  margin-left: 30px;
 }
-
-
-
+.accommodation-grid2 {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  justify-content: center;
+ }
 
          
-
-
-
-
-
-
-
-
