@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+.hero-section {
+  background-image: url("Photos/VRBO_APFT2_BARCELONA_THERIN_HOUSE_2_4605_1 (1).jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 50px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.overlay h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: 500px;
+  text-align: left;
+  margin-left: 80px;
+}
+
+.search-bar {
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  gap: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.search-field {
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  padding: 10px 15px;
+  flex: 1;
+}
+
+.search-field input {
+  outline: none;
+  background: transparent;
+  font-size: 1rem;
+  padding-left: 30px;
+  width: 100%;
+  border: 5px solid white;
+  margin: 20px;
+  
+}
+.seek-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.seek-btn:hover {
+  background-color: #0056b3;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: white;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-weight: 500;
+}
+
+.btn-download {
+  border: 1px solid #ddd;
+  padding: 8px 14px;
+  border-radius: 30px;
+  background-color: transparent;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: bold;
+}
+.heading {
+   text-align: center;
+   margin-bottom: 40px;
+}
+.heading h1 {
+  font-size: 32px;
+  color: #333;
+   margin-bottom: 10px;
+ }
+
+.accommodation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  justify-content: center;
+ }
+
+.accommodation-item {
+ padding: 25px;
+ text-align: center;
+ border: 1px solid #e0e0e0;
+ border-radius: 12px;
+ transition: all 0.3s ease;
+ cursor: pointer;
+  background-color: white;
+ }
+
+.accommodation-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-color: #007bff;
+ }
+ .accommodation-image {
+  width: 150px;
+  height:150px;
+  object-fit: contain;
+}
+
+.accommodation-item p {
+ font-size: 18px;
+ color: #444;
+ text-transform: capitalize;
+ margin: 0;
+ }
+.heading2 h1{
+   font-size: 24px;
+  margin-bottom: 10px;
+}
+.accommodation-item1 {
+ padding: 25px;
+ text-align: center;
+ border: 1px solid #e0e0e0;
+ border-radius: 12px;
+ transition: all 0.3s ease;
+ cursor: pointer;
+  background-color: white;
+ }
+ .accommodation-item1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-color: #007bff;
+ }
+  .accommodation-image1 {
+  width: 150px;
+  height:150px;
+  object-fit: contain;
+  margin-left: 30px;
+}
+.accommodation-grid2 {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  justify-content: center;
+ }
+
+         
